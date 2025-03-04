@@ -1,4 +1,4 @@
-# Sensitive Data Disclosure
+# Sensitive Data Exposure
 
 ## Hashed Passwords Disclosed
 
@@ -38,6 +38,8 @@ Implemented in the following files
 
 - *core/appHandler.js*
 
+The fix has been implemented in this [commit](https://github.com/appsecco/dvna/commit/7c28c2e007ac48badc604e52621c37bbb8da8fbd)
+
 ## Logging of sensitive information
 
 ![info-dis](/resources/info-dis2.png "Password Hash Disclosed")
@@ -63,6 +65,8 @@ Implemented in the following files
 
 - *models/index.js*
 
+The fix has been implemented in this [commit](https://github.com/appsecco/dvna/commit/60ed581799f2257e1be2d8a7747014d6b3d123af)
+
 **Recommendation**
 
 - Always be wary of where all your data resides or is transmitted to
@@ -70,5 +74,5 @@ Implemented in the following files
 
 **Reference**
 
-- https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure
-- https://stackoverflow.com/questions/28927836/prevent-sequelize-from-outputting-sql-to-the-console-on-execution-of-query
+- <https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure>
+- <https://stackoverflow.com/questions/28927836/prevent-sequelize-from-outputting-sql-to-the-console-on-execution-of-query>
